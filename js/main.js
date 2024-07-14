@@ -97,6 +97,7 @@ setTimeout(function(){
 }
 
 function mealDetails(responceData){
+    $('#searchInput').addClass(`d-none`)
     console.log(responceData.meals[0])
 let strMeal = responceData.meals[0].strMeal;
 let strCategory = responceData.meals[0].strCategory;
